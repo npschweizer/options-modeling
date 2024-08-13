@@ -8,12 +8,9 @@ library(bsts) # Need our local install for this one
 .libPaths(paste0(getwd(), "/packages"))
 library(gtrendsR)
 library(tidyquant)
-library(quantmod)
 library(ggfortify)
-library(ggplot2)
 library(lubridate)
 library(forecast)
-library(dplyr)
 library(jsonlite)
 source("helpers/helpers.R")
 
@@ -22,7 +19,7 @@ apikey <- readLines("secret-treasure.txt")
 
 
 
-ticker <- "FFIE"
+ticker <- "W"
 
 
 
